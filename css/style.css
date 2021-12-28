@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+.row {
+    margin: 0;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+a.btn_registrate,
+a.btn_bono {
+    background: #ff0000;
+    color: #fff;
+    width: 250px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+section {
+    z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+    background: #000;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    z-index: 1030;
+    display: none;
+}
+
+.navbar-brand {
+    width: 50px;
+}
+
+.navbar .icon {
+    width: 26px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.modal-content {
+    background: transparent;
+}
+
+.modal .modal-body a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.modal .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    opacity: 1;
+}
+
+.modal .close span {
+    color: #fff;
+}
+
+/* Home */
+.home {
+    color: #fff;
+    position: relative;
+    background-image: url(../images/Home/01_home.jpg);
+    background-size: cover;
+}
+
+.home .icon {
+    width: 25px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.home .icon_whats {
+    width: 40px;
+}
+
+.home p.number {
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 5px;
+}
+
+.home .news,
+.home .playlist {
+    width: 50%;
+    margin-left: auto;
+}
+
+.home .news img,
+.home .playlist img {
+    width: 200px;
+}
+
+.home .w-60 .icon {
+    width: 50px;
+}
+
+/* News */
+
+section.news {
+    background: #e8e8e8;
+}
+
+.news .row:nth-child(2) {
+    background: #e4e4e4;
+}
+
+.news .header {
+    background-image: url(../images/News/head_imagen_news.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.news .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.news .col-md-4 .box form .input-group {
+    background: transparent;
+    border: 1px solid #ff0000;
+    border-radius: 30px;
+}
+
+.news .col-md-4 .box form .input-group-append span {
+    background: #ff0000;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.news .col-md-4 .box form img {
+    width: 36px;
+}
+
+.news .col-md-4 h2 {
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.news .col-md-4 h3 {
+    font-weight: 900;
+}
+
+.news .col-md-4 .fecha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ff0000;
+    font-weight: 700;
+}
+
+.news .col-md-4 .box_trucos {
+    margin-bottom: 20px;
+}
+
+.news .col-md-4 .box p {
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.news .col-md-4 .box p span {
+    display: block;
+    font-weight: 700;
+}
+
+.news .col-md-4 .fecha img {
+    width: 24px;
+}
+
+.news .col-md-4 .fecha p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.news .whatsapp {
+    width: 50px;
+}
+
+.news .btn_aprende {
+    display: flex;
+    background: #ff0000;
+    border-radius: 30px;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.news .btn_aprende img {
+    width: 35px;
+}
+
+.news .col-md-4 .box {
+    background: #fff;
+    padding: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.news .movimientos {
+    background-image: url(../images/News/dedos_alien.png);
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+}
+
+.news .movimientos h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.news .movimientos .porcentaje {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.news form span,
+.home form span {
+    background: #fff;
+    border-radius: 30px !important;
+    color: #000;
+    font-weight: bold;
+}
+
+.news .input-group,
+.home .input-group {
+    background: #b9bbbd;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.news input,
+.home input {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.news .movimientos form button,
+.home form button {
+    border: none;
+    background: transparent;
+}
+
+.news .movimientos .icon {
+    width: 50px;
+}
+
+/* Retos */
+.reto {
+    background-image: url(../images/Reto/back_reto.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.reto .retos {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.reto .retos .col-md-7 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reto .retos:nth-child(1) img {
+    width: 140px;
+}
+
+.reto .retos .col-md-7 {
+    border-right: 2px solid #fff;
+}
+
+.reto .retos .col-md-7 .col-4 img {
+    width: 150px;
+}
+
+/* Inversionistas */
+
+.inversionistas {
+    background-image: url(../images/inversionistas/back_somos_inv.png);
+    background-size: cover;
+}
+
+.inversionistas h3 span {
+    display: block;
+    font-size: 2.3rem;
+}
+
+.inversionistas p {
+    color: #a7a9ac;
+}
+
+.inversionistas .box_form {
+    border: 2px solid #a7a9ac;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.inversionistas .input-group {
+    background: #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.inversionistas .input-group input {
+    border: none;
+}
+
+.inversionistas .input-group input:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.inversionistas form button {
+    background: transparent;
+    border: none;
+    outline: 0;
+    margin-left: auto;
+}
+
+/* About */
+.about {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.about p {
+    color: #a7a9ac;
+}
+
+.about .box {
+    border: 4px solid #808285;
+}
+
+.about .box .box_item {
+    border-top: 4px solid #808285;
+    border-bottom: 4px solid #808285;
+    padding: 30px 0;
+}
+
+/* Ganas por que ganas */
+.ganas {
+    background-image: url(../images/Ganas/imagen_back.png);
+    background-position: 0 0;
+    background-size: cover;
+    color: #fff;
+}
+
+.ganas .box {
+    margin: 20px;
+    border: 2px #fff solid;
+    border-radius: 30px;
+    padding: 24px
+}
+
+.ganas .input-group {
+    background: #b9bbbd;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.ganas .form-control {
+    background: transparent !important;
+    border: 0;
+}
+
+.ganas .form-control:focus {
+    outline: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.ganas form span {
+    background: #fff;
+    border-radius: 30px !important;
+    color: #000;
+    font-weight: bold;
+}
+
+.ganas form button {
+    border: none;
+    background: transparent;
+}
+
+/* Comunidad */
+.comunidad {
+    background-image: url(../images/Comunidad/imagen_back_cont.png);
+    background-size: cover;
+    background-position: 0 0;
+    height: 500px;
+}
+
+.comunidad h2 {
+    color: #ff0000;
+    text-align: center;
+}
+
+/* Contacto */
+.contact {
+    background: #202123;
+}
+
+.contact .box {
+    background: #2d2f31;
+    padding: 40px;
+    border-radius: 30px;
+    color: #a7a9ac;
+}
+
+.contact h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contact label {
+    display: inline-block;
+    margin: 0 30px 0 0;
+}
+
+.contact .input-group {
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.contact .input-group .form-control {
+    border: none;
+    outline: 0;
+}
+
+.contact .input-group .form-control:focus {
+    box-shadow: none;
+    outline: 0;
+    border: none;
+}
+
+.contact .form-check {
+    padding: 15px 0;
+    border-top: 3px solid #a7a9ac;
+    border-bottom: 3px solid #a7a9ac;
+    margin-top: 16px;
+}
+
+.contact form button {
+    background: #ff0000;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #8b8e90;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer a {
+    color: #8b8e90
+}
+
+footer img.icon {
+    width: 28px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .col-md-5 .derechos,
+footer .col-md-5 a {
+    font-size: 18px;
+    font-size: 600;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 767px) {
+    .w-40 {
+        width: 100%;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .input-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-group-text {
+        font-size: 12px;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .navbar-brand {
+        width: 30px;
+    }
+
+    .home .news,
+    .home .playlist {
+        width: 100%;
+    }
+
+    .home .logo_home {
+        width: 240px;
+    }
+
+    .home p.number {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .home .w-60 {
+        width: 100%;
+    }
+
+    .news .col-md-4 .box {
+        padding: 1rem;
+    }
+
+    .news .movimientos {
+        height: auto;
+    }
+
+    .reto img.logos {
+        width: 110px;
+        display: block;
+        margin: 20px;
+    }
+
+    .inversionistas .box_form {
+        padding: 20px;
+    }
+
+    .inversionistas button img {
+        width: 100px;
+    }
+
+    .inversionistas .logo_metatrader {
+        width: 100px;
+        margin: 30px;
+    }
+
+    .comunidad h2 {
+        font-size: 1.5rem;
+    }
+
+    .ganas .box {
+        margin: 20px 0;
+    }
+
+    .contact h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact .box {
+        padding: 20px;
+    }
+
+    .input-group-append img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .logo {
+        width: 180px;
+    }
+}
